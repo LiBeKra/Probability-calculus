@@ -24,10 +24,10 @@ print("Probability distribution of 3 dice (text column graph)\n")
 for level in range(max_height, 0, -1):  # top to bottom
     line = ""
     for s in range(3, 19):
-        if probs[s] * scale >= level:
-            line += "█ "   # block character for column
+        if round(probs[s] * scale) >= level:
+            line += "██ "   # block character for column
         else:
-            line += "  "
+            line += "   "
     print(line)
 
 # Print labels at the bottom
