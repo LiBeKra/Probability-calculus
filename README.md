@@ -1,5 +1,9 @@
 # Probability-calculus
 
+![GitHub Release](https://img.shields.io/github/v/release/LiBeKra/Probability-calculus)
+![GitHub License](https://img.shields.io/github/license/LiBeKra/Probability-calculus)
+[![pages-build-deployment](https://github.com/LiBeKra/Probability-calculus/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LiBeKra/Probability-calculus/actions/workflows/pages/pages-build-deployment)
+
 Leider erst in Klasse 9 kam die 9a32 dazu, das alte Thema der 7. Klasse zur Wahrscheinlichkeitsberechnung im Matheunterricht durchzunehmen. Dabei macht es so viel Spass!
 
 Hier ein paar Hausaufgaben als Beispiele:
@@ -44,6 +48,8 @@ Wahrscheinlichkeiten für 6 aus 49:
 5 Richtige: 0.0000184499 (0.00184499%)
 6 Richtige: 0.0000000715 (0.00000715%)
 ```
+
+![graph visualizing the probability distribution](./docs/image/lotto.png)
 
 ## Drei Würfel
 
@@ -114,3 +120,7 @@ Probability distribution of 3 dice (text column graph)
 ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██ ██
  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18
 ```
+
+Und das wird in Jupyter Notebook mit mathplotlib erzeugt:
+
+![graph visualizing the probability distribution](./docs/image/three_dices.png)
